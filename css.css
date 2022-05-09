@@ -147,7 +147,8 @@ header input {
 }
 
 .flora2 {
-  margin-top: 50px;
+  margin-top: 190px;
+  margin-bottom: 140px;
   width: 560px;
   height: 220px;
   background-color: #a1eb0e;
@@ -279,4 +280,16 @@ header input {
   .infos2{
     margin-top: 20px;
   }
+  .flora2{
+    width: 400px;
+    height: 250px;
+  }
+  .detalhada{
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 826px) {
+.navbar{
+  font-size: 25px;
+}
 }
