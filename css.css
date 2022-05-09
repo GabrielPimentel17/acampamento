@@ -258,12 +258,12 @@ header input {
   .img2{
     display: flex;
     align-items: center;
-    margin-left: 160px;
+    margin-left: 150px;
   }
   .img3{
     display: flex;
     align-items: center;
-    margin-left: 185px;
+    margin-left: 175px;
   }
   .info_acam{
     margin-top: 195px;
@@ -311,6 +311,12 @@ header input {
    width: 300px;
    height: 500px;
  }
+}
+@media only screen and (max-width: 460px) {
+  .flora2{
+    width: 300px;
+   height: 500px;
+  }
 }
   
 
