@@ -175,7 +175,7 @@ header input {
 }
 
 .info_acam {
-  font-size: 18px;
+  font-size: 15px;
   background-color: rgba(6, 75, 21, 0.925);
   margin-right: 10px;
   margin-top: 235px;
@@ -316,6 +316,10 @@ header input {
   .flora2{
     width: 300px;
    height: 500px;
+  }
+  .regras1{
+    width: 300px;
+    height: 350px;
   }
 }
   
