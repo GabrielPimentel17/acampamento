@@ -167,7 +167,7 @@ header input {
   display: flex;
   justify-items: center;
   margin-top: 90px;
-  width: 500px;
+  width: 350px;
   height: 350px;
   margin-bottom: 2px;
   margin-right: 150px;
@@ -177,7 +177,7 @@ header input {
   font-size: 18px;
   background-color: rgba(6, 75, 21, 0.925);
   margin-right: 10px;
-  margin-top: 190px;
+  margin-top: 235px;
   width: 180px;
   border-radius: 5px;
   box-shadow: 5px 5px 15px black;
@@ -186,11 +186,11 @@ header input {
 .img3 {
   display: flex;
   justify-content: left;
-  width: 470px;
+  width: 370px;
   height: 470px;
   margin-left: 25px;
   margin-bottom: 200px;
-  margin-right: 200px;
+  margin-right: 155px;
 }
 
 .regras_acam {
@@ -198,15 +198,16 @@ header input {
   font-size: 20px;
   background-color: rgba(6, 75, 21, 0.925);
   margin-right: 10px;
-  margin-top: 210px;
+  margin-top: 230px;
   border-radius: 5px;
   box-shadow: 5px 5px 15px black;
 }
 
 .infos_acam2 {
-  margin-top: 50px;
+  margin-top: 150px;
   width: 550px;
-  height: 220px;
+  height: 290px;
+  margin-bottom: 100px;
   background-color: #a1eb0e;
   border-radius: 15px;
   box-shadow: 5px 5px 15px black;
@@ -222,7 +223,8 @@ header input {
 }
 
 .regras1 {
-  margin-top: 50px;
+  margin-top: 150px;
+  margin-bottom: 160px;
   width: 550px;
   height: 220px;
   background-color: #a1eb0e;
@@ -232,12 +234,12 @@ header input {
 
 .regras2 {
   margin-top: 60px;
-  margin-left: 10px;
+  margin-left: 20px;
   font-size: 20px;
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   header {
     flex-direction: column;
     align-items: center;
@@ -250,5 +252,31 @@ header input {
 
   .acampamento {
     font-size: 30px;
+  }
+
+  .img2{
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+  }
+  .img3{
+    display: flex;
+    align-items: center;
+    margin-left: 185px;
+  }
+  .info_acam{
+    margin-top: 195px;
+  }
+  .regras_acam{
+    margin-top: 190px;
+  }
+  .regras1{
+    width: 400px;
+  }
+  .infos_acam2{
+    width: 400px;
+  }
+  .infos2{
+    margin-top: 20px;
   }
 }
