@@ -168,7 +168,7 @@ header input {
   display: flex;
   justify-items: center;
   margin-top: 90px;
-  width: 350px;
+  width: 300px;
   height: 350px;
   margin-bottom: 2px;
   margin-right: 150px;
@@ -187,18 +187,18 @@ header input {
 .img3 {
   display: flex;
   justify-content: left;
-  width: 370px;
+  width: 300px;
   height: 470px;
   margin-left: 25px;
   margin-bottom: 200px;
-  margin-right: 155px;
+  margin-right: 170px;
 }
 
 .regras_acam {
   display: flex;
   font-size: 20px;
   background-color: rgba(6, 75, 21, 0.925);
-  margin-right: 8px;
+  margin-right: 10px;
   margin-top: 230px;
   border-radius: 5px;
   box-shadow: 5px 5px 15px black;
